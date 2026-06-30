@@ -1,5 +1,3 @@
-(src/SecureScore Banner_Dark.png)
-
 # 🛡️ SecureScore — Breach Exposure Checker
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.2-000000.svg?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
