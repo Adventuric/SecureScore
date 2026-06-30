@@ -1,23 +1,41 @@
+<div align="center">
+
 <img width="6912" height="2304" alt="simple" src="https://github.com/user-attachments/assets/1ebf2c2b-9244-4538-9ec0-8052d7ac6673" />
 
+# 🛡️ SecureScore
 
-## 🛡️ SecureScore — Breach Exposure Checker
+**Breach Exposure Checker — Scan emails & usernames against billions of leaked records**
 
-[![Next.js](https://img.shields.io/badge/Next.js-16.2-000000.svg?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
-[![React](https://img.shields.io/badge/React-19-61dafb.svg?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178c6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06b6d4.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=for-the-badge)](LICENSE)
+[![Vercel](https://img.shields.io/badge/deployed%20on-Vercel-000000?logo=vercel&style=for-the-badge)](https://secure-score.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js_16-000000?logo=next.js&logoColor=white&style=for-the-badge)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React_19-61DAFB?logo=react&logoColor=black&style=for-the-badge)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)](https://www.typescriptlang.org)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)](https://tailwindcss.com)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)](LICENSE)
 
 ---
+
+[![Stars](https://img.shields.io/github/stars/Adventuric/SecureScore?style=flat-square&logo=github)](https://github.com/Adventuric/SecureScore/stargazers)
+[![Forks](https://img.shields.io/github/forks/Adventuric/SecureScore?style=flat-square&logo=github)](https://github.com/Adventuric/SecureScore/forks)
+[![Issues](https://img.shields.io/github/issues/Adventuric/SecureScore?style=flat-square&logo=github)](https://github.com/Adventuric/SecureScore/issues)
+[![PRs](https://img.shields.io/github/issues-pr/Adventuric/SecureScore?style=flat-square&logo=github)](https://github.com/Adventuric/SecureScore/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/Adventuric/SecureScore/main?style=flat-square&logo=github)](https://github.com/Adventuric/SecureScore/commits/main)
+
+---
+
+### 🚀 [Try the Live Demo](https://secure-score.vercel.app) &nbsp;·&nbsp; 📄 [Report a Bug](https://github.com/Adventuric/SecureScore/issues) &nbsp;·&nbsp; 💡 [Request a Feature](https://github.com/Adventuric/SecureScore/issues)
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAdventuric%2FSecureScore)
+
+---
+
+</div>
 
 ## 📖 Overview
 
 **SecureScore** is a production-ready web application that checks if your email address or username has been exposed in known data breaches. It scans billions of records using the LeakCheck public intelligence database, computes a personalized security score out of 100, and delivers actionable recommendations — all without storing any personal data.
 
 > **Privacy-first** — your email, username, and scan results are never stored on any server. Results live only in your browser's session storage.
-
----
 
 ## ✨ Key Features
 
@@ -31,8 +49,6 @@
 | **Share & Recent Searches** | One-click score sharing and persistent recent searches in local storage |
 | **Zero Data Retention** | All processing is ephemeral — no accounts, no sign-up, no server-side storage |
 
----
-
 ## 🖥️ Tech Stack
 
 | Layer | Technologies |
@@ -44,8 +60,6 @@
 | **PDF** | jsPDF |
 | **Backend** | Next.js API Routes (server-side proxy) |
 | **Data Source** | LeakCheck Public API (free, no key) |
-
----
 
 ## 🏛️ How It Works
 
@@ -79,46 +93,6 @@ User Input (Email / Username)
   Interactive Dashboard ←── PDF Export
 ```
 
----
-
-## 📁 Project Structure
-
-```
-securescore/
-├── src/
-│   ├── app/
-│   │   ├── api/check-breaches/    # Server-side breach API proxy
-│   │   ├── results/               # Results dashboard page
-│   │   ├── globals.css            # Tailwind v4 config & dark theme
-│   │   ├── layout.tsx             # Root layout with theme provider
-│   │   └── page.tsx               # Landing page
-│   ├── components/
-│   │   ├── dashboard/             # ScoreCircle, BreachTimeline, etc.
-│   │   ├── landing/               # HeroSection, SearchCard, AnimatedBackground
-│   │   ├── shared/                # ThemeToggle, PageTransition, DisclaimerBanner
-│   │   └── ui/                    # shadcn/ui primitives (button, input, etc.)
-│   ├── hooks/
-│   │   ├── useBreachCheck.ts      # Scan orchestration hook
-│   │   ├── useSecureScore.ts      # Score computation hook
-│   │   ├── useLocalStorage.ts     # Persistent storage hook
-│   │   └── useTypewriter.ts       # Loading animation hook
-│   ├── lib/
-│   │   ├── algorithm/             # SecureScore scoring engine
-│   │   ├── api/                   # LeakCheck, mock-data, breach-api
-│   │   ├── pdf-report.ts          # Programmatic PDF generator
-│   │   └── recommendations.ts     # Recommendation engine
-│   ├── data/                      # Static breach details & security tips
-│   └── types/                     # TypeScript interfaces
-├── public/                        # Static assets
-├── .env.local                     # Local env (no keys required)
-├── next.config.ts
-├── package.json
-├── tailwind.config.ts
-└── tsconfig.json
-```
-
----
-
 ## ⚙️ Getting Started
 
 ### Prerequisites
@@ -149,7 +123,13 @@ pnpm build
 pnpm start
 ```
 
----
+### Deploy to Vercel
+
+Click the button below to deploy your own instance in one click:
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAdventuric%2FSecureScore)
+
+No configuration or environment variables needed — the app works out of the box.
 
 ## 📡 API Reference
 
@@ -186,16 +166,12 @@ Scans an email and optional username against known data breaches.
 }
 ```
 
----
-
 ## 🔒 Privacy & Security
 
 - **Zero Retention** — All processing happens in memory. Scan results are stored only in your browser's `sessionStorage` and cleared when the tab closes.
 - **Recent Searches** — Only email addresses and scores are stored locally in `localStorage` for convenience. You can clear this at any time.
 - **No API Key Required** — The app uses the free LeakCheck public API. No personal data is sent to third parties beyond the breach lookup.
 - **No Accounts** — No sign-up, no authentication, no server-side persistence of any kind.
-
----
 
 ## 🗺️ Roadmap
 
@@ -205,13 +181,9 @@ Scans an email and optional username against known data breaches.
 | **v1.1** | 🔄 Planned | Breach monitoring alerts, email digest, export formats (CSV, JSON) |
 | **v2.0** | 🚧 Planned | Additional breach APIs (HIBP, Firefox Monitor), passkey support, dark-web scanning |
 
----
-
 ## 📄 License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
-
----
 
 ## 👤 Project
 
