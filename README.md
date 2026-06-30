@@ -1,5 +1,7 @@
 <img width="6912" height="2304" alt="simple" src="https://github.com/user-attachments/assets/1ebf2c2b-9244-4538-9ec0-8052d7ac6673" />
 
+<img width="1200" height="630" alt="og-image" src="https://github.com/user-attachments/assets/301b5923-5347-45f1-b833-138f34e5fd48" /><div align="center">
+
 # 🛡️ SecureScore
 
 **Breach Exposure Checker — Scan emails & usernames against billions of leaked records**
@@ -28,9 +30,7 @@
 ---
 
 </div>
----
-<img width="1200" height="630" alt="og-image" src="https://github.com/user-attachments/assets/301b5923-5347-45f1-b833-138f34e5fd48" /><div align="center">
----
+
 ## 📖 Overview
 
 **SecureScore** is a production-ready web application that checks if your email address or username has been exposed in known data breaches. It scans billions of records using the LeakCheck public intelligence database, computes a personalized security score out of 100, and delivers actionable recommendations — all without storing any personal data.
