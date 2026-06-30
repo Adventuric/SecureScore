@@ -1,4 +1,5 @@
-<img width="6912" height="2304" alt="simple" src="https://github.com/user-attachments/assets/1ebf2c2b-9244-4538-9ec0-8052d7ac6673" />
+<img width="5792" height="2880" alt="easy" src="https://github.com/user-attachments/assets/aea8b948-f9ac-46fe-9584-b8a67ff0e819" />
+
 
 # 🛡️ SecureScore
 
