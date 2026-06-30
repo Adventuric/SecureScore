@@ -5,7 +5,7 @@
 
 **Breach Exposure Checker — Scan emails & usernames against billions of leaked records**
 
-[![Vercel](https://img.shields.io/badge/deployed%20on-Vercel-000000?logo=vercel&style=for-the-badge)](https://secure-score.vercel.app)
+[![Vercel](https://img.shields.io/badge/deployed%20on-Vercel-000000?logo=vercel&style=for-the-badge)](https://securescore.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js_16-000000?logo=next.js&logoColor=white&style=for-the-badge)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React_19-61DAFB?logo=react&logoColor=black&style=for-the-badge)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)](https://www.typescriptlang.org)
@@ -22,7 +22,7 @@
 
 ---
 
-### 🚀 [Try the Live Demo](https://secure-score.vercel.app) &nbsp;·&nbsp; 📄 [Report a Bug](https://github.com/Adventuric/SecureScore/issues) &nbsp;·&nbsp; 💡 [Request a Feature](https://github.com/Adventuric/SecureScore/issues)
+### 🚀 [Try the Live Demo](https://securescore.vercel.app/) &nbsp;·&nbsp; 📄 [Report a Bug](https://github.com/Adventuric/SecureScore/issues) &nbsp;·&nbsp; 💡 [Request a Feature](https://github.com/Adventuric/SecureScore/issues)
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAdventuric%2FSecureScore)
 
