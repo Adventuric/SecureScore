@@ -1,7 +1,5 @@
 <img width="6912" height="2304" alt="simple" src="https://github.com/user-attachments/assets/1ebf2c2b-9244-4538-9ec0-8052d7ac6673" />
 
-<img width="1200" height="630" alt="og-image" src="https://github.com/user-attachments/assets/301b5923-5347-45f1-b833-138f34e5fd48" /><div align="center">
-
 # 🛡️ SecureScore
 
 **Breach Exposure Checker — Scan emails & usernames against billions of leaked records**
