@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1200" height="630" alt="og-image" src="https://github.com/user-attachments/assets/301b5923-5347-45f1-b833-138f34e5fd48" /><div align="center">
 
 <img width="6912" height="2304" alt="simple" src="https://github.com/user-attachments/assets/1ebf2c2b-9244-4538-9ec0-8052d7ac6673" />
 
@@ -30,6 +30,60 @@
 ---
 
 </div>
+
+---
+
+!<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <circle cx="1050" cy="100" r="250" fill="#1a1a2e" opacity="0.6"/>
+  <circle cx="150" cy="500" r="200" fill="#16213e" opacity="0.4"/>
+  <circle cx="600" cy="315" r="180" fill="url(#glow)" opacity="0.15"/>
+
+  <!-- Shield icon -->
+  <g transform="translate(80, 140)">
+    <path d="M60 10 L110 30 L110 90 C110 130 60 145 60 145 C60 145 10 130 10 90 L10 30 Z" fill="#00d4aa" opacity="0.15"/>
+    <path d="M60 18 L102 34 L102 88 C102 122 60 135 60 135 C60 135 18 122 18 88 L18 34 Z" fill="none" stroke="#00d4aa" stroke-width="2.5"/>
+    <path d="M48 72 L56 80 L72 60" fill="none" stroke="#00d4aa" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4aa"/>
+      <stop offset="100%" stop-color="#0a0a0f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <text x="160" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-1">SecureScore</text>
+  <text x="160" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#8888aa" letter-spacing="0.3">Breach Exposure Checker</text>
+
+  <rect x="160" y="280" width="500" height="2" rx="1" fill="#00d4aa" opacity="0.3"/>
+
+  <text x="160" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#667788">Scan emails &amp; usernames against</text>
+  <text x="160" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#667788">billions of leaked records</text>
+
+  <!-- Score circle mockup -->
+  <g transform="translate(850, 300)">
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#1a1a2e" stroke-width="10"/>
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#00d4aa" stroke-width="10" stroke-dasharray="597" stroke-dashoffset="180" stroke-linecap="round" transform="rotate(-90)"/>
+    <text x="0" y="-8" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">72</text>
+    <text x="0" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#00d4aa" text-anchor="middle">Fair</text>
+  </g>
+
+  <!-- Tags -->
+  <rect x="160" y="410" width="100" height="32" rx="16" fill="#1a1a2e"/>
+  <text x="210" y="432" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#00d4aa" text-anchor="middle">Next.js</text>
+  <rect x="272" y="410" width="100" height="32" rx="16" fill="#1a1a2e"/>
+  <text x="322" y="432" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#61DAFB" text-anchor="middle">React</text>
+  <rect x="384" y="410" width="110" height="32" rx="16" fill="#1a1a2e"/>
+  <text x="439" y="432" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#3178C6" text-anchor="middle">TypeScript</text>
+  <rect x="506" y="410" width="110" height="32" rx="16" fill="#1a1a2e"/>
+  <text x="561" y="432" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#06B6D4" text-anchor="middle">Tailwind</text>
+
+  <text x="160" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#445566">github.com/Adventuric/SecureScore</text>
+</svg>
+[Uploading og-image.svg…]()
+
+---
 
 ## 📖 Overview
 
